@@ -34,7 +34,7 @@ You can also perform these actions using the REST APIs.
 
 A Temporary Access Pass policy defines settings, such as the lifetime of passes created in the tenant, or the users and groups who can use a Temporary Access Pass to sign-in. 
 Before anyone can sign-in with a Temporary Access Pass, you need to enable Temporary Access Pass in the authentication method policy and choose which users and groups can sign in by using a Temporary Access Pass.
-Although you can create a Temporary Access Pass for any user, only those included in the policy can sign-in with it.
+Although you can create a Temporary Access Pass for any user, in their home tenant but not guest users, only those included in the policy can sign-in with it.
 
 Global administrator and Authentication Policy administrator role holders can update the Temporary Access Pass authentication method policy.
 To configure the Temporary Access Pass authentication method policy:
