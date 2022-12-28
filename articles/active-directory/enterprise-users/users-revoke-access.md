@@ -74,7 +74,7 @@ As an admin in the Active Directory, connect to your on-premises network, open P
     Set-ADAccountPassword -Identity johndoe -Reset -NewPassword (ConvertTo-SecureString -AsPlainText "p@ssw0rd1" -Force)
     Set-ADAccountPassword -Identity johndoe -Reset -NewPassword (ConvertTo-SecureString -AsPlainText "p@ssw0rd2" -Force)
     ```
-
+    
 ### Azure Active Directory environment
 
 As an administrator in Azure Active Directory, open PowerShell, run ``Connect-AzureAD``, and take the following actions:
@@ -127,3 +127,4 @@ Once admins have taken the above steps, the user can't gain new tokens for any a
 - [Secure access practices for Azure AD administrators](../roles/security-planning.md)
 - [Add or update user profile information](../fundamentals/active-directory-users-profile-azure-portal.md)
 - [Remove or Delete a former employee](/microsoft-365/admin/add-users/remove-former-employee)
+- https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-and-password-changes
