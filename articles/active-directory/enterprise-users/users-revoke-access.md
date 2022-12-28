@@ -74,6 +74,8 @@ As an admin in the Active Directory, connect to your on-premises network, open P
     Set-ADAccountPassword -Identity johndoe -Reset -NewPassword (ConvertTo-SecureString -AsPlainText "p@ssw0rd1" -Force)
     Set-ADAccountPassword -Identity johndoe -Reset -NewPassword (ConvertTo-SecureString -AsPlainText "p@ssw0rd2" -Force)
     ```
+ > [!NOTE]
+    > If Windows Hello for Business was setup sign-in with PIN or biometrics will still succeed despite the password change. You can disable Windows Hello for Business using InTune or Group Policy.
 
 ### Azure Active Directory environment
 
