@@ -22,6 +22,7 @@ Self-service password reset (SSPR) gives users in Azure Active Directory (Azure 
 To improve the SSPR experience for users, you can customize the look and feel of the password reset page, email notifications, or sign-in pages. These customization options let you make it clear to the user they're in the right place, and give them confidence they're accessing company resources.
     
 This article shows you how to customize the SSPR e-mail link for users, company branding, and AD FS sign-in page link.
+These customizations do no take effect when initiating SSPR through the Windows Sign-in Screen.
 
 ## Customize the "Contact your administrator" link
 
