@@ -105,6 +105,7 @@ Additionally, you can also add users using the command prompt:
 - Device administrators are assigned to all Azure AD Joined devices. They can't be scoped to a specific set of devices.
 - Local administrator rights on Windows devices aren't applicable to [Azure AD B2B guest users](../external-identities/what-is-b2b.md).
 - When you remove users from the device administrator role, changes aren't instant. Users still have local administrator privilege on a device as long as they're signed in to it. The privilege is revoked during their next sign-in when a new primary refresh token is issued. This revocation, similar to the privilege elevation, could take upto 4 hours.
+- "Run as ..." does not work without switching users first to aquire a token
 
 ## Next steps
 
